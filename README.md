@@ -2,13 +2,27 @@
 
 </br>
 
-Ref. project :
+Concatenated project :
 
 |                     |                  |                                                                                                 |                                                                         |
 | ------------------- | ---------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | MTCNN               | Face Detection   | [PKUZHOU/MTCNN_FaceDetection_TensorRT](https://github.com/PKUZHOU/MTCNN_FaceDetection_TensorRT) | MTCNN C++ implementation with NVIDIA TensorRT Inference accelerator SDK |
 | FaceNet             | Face Recognition | [apollo-time/facenet](https://github.com/apollo-time/facenet)                                   | Tensorflow implementation of the FaceNet face recognizer                |
 | TensorRT UFF plugin | .pb → .uff       | [r7vme/tensorrt_l2norm_helper](https://github.com/r7vme/tensorrt_l2norm_helper)                 | TensorRT plugin that allows to use tf.nn.l2_normalize                   |
+
+
+
+
+</br>
+
+Model transfer of TensorRT：
+
+|         |                       |
+| ------- | --------------------- |
+| MTCNN   | [.pb](./mtcnn_facenet_cpp_tensorRT/facenet.pb) → [.uff](./mtcnn_facenet_cpp_tensorRT/facenetModels/facenet.uff) → [.engine](./mtcnn_facenet_cpp_tensorRT/facenetModels/facenet.engine)  |
+| FaceNet | [.caffemodel](./mtcnn_facenet_cpp_tensorRT/mtCNNModels/det1_relu.caffemodel) → [.engine](./mtcnn_facenet_cpp_tensorRT/mtCNNModels/det1_relu1.engine) |
+
+
 
 
 </br>
