@@ -1,4 +1,6 @@
-["mtcnn_facenet_cpp_tensorRT"](./mtcnn_facenet_cpp_tensorRT/) was forked from [nwesem/mtcnn_facenet_cpp_tensorRT: Face Recognition on NVIDIA Jetson (Nano) using TensorRT](https://github.com/nwesem/mtcnn_facenet_cpp_tensorRT)
+[Face Recognition on Jetson Nano using TensorRT | by Niclas Wesemann | Towards Data Science](https://towardsdatascience.com/face-recognition-using-tensorrt-on-jetson-nano-set-up-in-less-than-5min-7c00bf730085)
+
+["mtcnn_facenet_cpp_tensorRT"](./mtcnn_facenet_cpp_tensorRT/) was forked from [nwesem/mtcnn_facenet_cpp_tensorRT](https://github.com/nwesem/mtcnn_facenet_cpp_tensorRT) : Face Recognition on NVIDIA Jetson (Nano) using TensorRT
 
 </br>
 
