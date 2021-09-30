@@ -1,10 +1,10 @@
 [Face Recognition on Jetson Nano using TensorRT | by Niclas Wesemann | Towards Data Science](https://towardsdatascience.com/face-recognition-using-tensorrt-on-jetson-nano-set-up-in-less-than-5min-7c00bf730085)
 
-["mtcnn_facenet_cpp_tensorRT"](./mtcnn_facenet_cpp_tensorRT/) was forked from [nwesem/mtcnn_facenet_cpp_tensorRT](https://github.com/nwesem/mtcnn_facenet_cpp_tensorRT) : Face Recognition on NVIDIA Jetson (Nano) using TensorRT
+["mtcnn_facenet_cpp_tensorRT"](./mtcnn_facenet_cpp_tensorRT/) was forked from [nwesem/mtcnn_facenet_cpp_tensorRT](https://github.com/nwesem/mtcnn_facenet_cpp_tensorRT)
 
 </br>
 
-Concatenated project :
+Concatenated projects :
 
 |                     |                  |                                                                                                 |                                                                         |
 | ------------------- | ---------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
@@ -29,6 +29,6 @@ Model transfer to TensorRT：
 </br>
 
 
-Forked and confirmed it's able to run on [Jetson Nano Jetpack 4.5.1](https://developer.nvidia.com/jetpack-sdk-451-archive)
+Confirmed it's able to demo on [Jetson Nano Jetpack 4.5.1](https://developer.nvidia.com/jetpack-sdk-451-archive)
 
  <img src="./Nano JP4.5 - jtop INFO.PNG" width = "80%" height = "80%" alt="jtop INFO"  />
