@@ -15,7 +15,7 @@ Concatenated project :
 
 </br>
 
-Model transfer of TensorRT：
+Model transfer to TensorRT：
 
 |         |                       |
 | ------- | --------------------- |
@@ -24,8 +24,8 @@ Model transfer of TensorRT：
 
 
 
-
 </br>
+
 
 Forked and confirmed it's able to run on [Jetson Nano Jetpack 4.5.1](https://developer.nvidia.com/jetpack-sdk-451-archive)
 
